@@ -1,0 +1,661 @@
+.navbar-vertical.navbar-expand-xs {
+    overflow-y: hidden;
+}
+/* COLOR RESET */
+*{
+    --primary: '#c63930'
+}
+
+.bg-primary {
+    background-color: #c63930 !important;
+}
+.text-primary {
+    color: var(--primary) !important;
+}
+.btn-danger, .btn-danger:focus, .btn-danger:hover {
+    color: #fff;
+    background-color: #c63930;
+    border-color: #c63930;
+}
+
+.sidenav[data-color=primary] .navbar-nav > .nav-item > .nav-link.active {
+    background-image: linear-gradient(310deg, #c63930, #a2322b);
+}
+.badge-success {
+    color: #089157;
+}
+.sidenav-header {
+    height: auto;
+}
+.sidenav .navbar-brand {
+    text-align: center;
+}
+.navbar-vertical .navbar-brand-img, .navbar-vertical .navbar-brand > img {
+    height: auto;
+}
+.navbar-vertical .navbar-brand-img, .navbar-vertical .navbar-brand > img {
+    max-height: 130px;
+    width: auto;
+}
+
+.graph {
+    max-height: 275px;
+    max-width: 275px;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    padding: 0.5rem 1rem;
+}
+.avatar-xl {
+    width: 60px !important;
+    height: 60px !important;
+}
+.view-bills {
+    font-weight: 550;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 320px;
+    overflow: auto;
+    width: 100%;
+    min-height: 41vh !important
+}
+
+.my-custom-scrollbar::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px !important;
+}
+
+
+
+.input-sm {
+    height: 30px;
+}
+
+.input-sm-2 {
+    height: 10px;
+}
+
+.report-text {
+    font-size: 11px;
+}
+
+.ledger-text {
+    font-size: 12px;
+}
+
+.bill-text {
+    font-size: 15px;
+}
+
+.my-custom-scrollbar-stock {
+    position: relative;
+    height: 380px;
+    overflow: auto;
+    width: 100%;
+    min-height: 53vh !important
+}
+
+.status-container {
+    height: 250px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.my-custom-scrollbar-stock::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px !important;
+}
+
+
+.my-custom-scrollbar-ledger {
+    position: relative;
+    height: 450px;
+    overflow: auto;
+    width: 100%;
+    min-height: 65vh !important
+}
+
+.my-custom-scrollbar-ledger::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px !important;
+}
+
+
+.my-custom-scrollbar-bill2 {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+    width: 100%;
+    min-height: 50vh !important
+}
+
+.my-custom-scrollbar-bill2::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px !important;
+}
+
+.pos-code {
+    font-weight: 750;
+    font-size: 16px;
+}
+
+.pos-text {
+    font-size: 13px;
+}
+
+
+.pos-card:active + .pos-card,
+.pos-card:checked + .pos-card,
+.pos-card.active,
+.pos-card:active,
+.pos-card:focus {
+    color: #FFF;
+    background-color: rgba(0, 204, 189, .5);
+}
+
+.pos-card:hover:not(.disabled):not(:disabled) {
+    color: #FFF;
+    background-color: rgba(0, 204, 189, .5);
+}
+
+
+.pos-card-wrapper-scroll-y {
+    display: block;
+
+}
+
+.my-custom-scrollbar-pos-card {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 48vh !important
+}
+
+@media(max-width: 1920px) {
+    .my-custom-scrollbar-pos-card {
+        height: 64vh !important;
+    }
+}
+@media(max-width: 1600px) {
+    .my-custom-scrollbar-pos-card {
+        height: 52vh !important;
+    }
+}
+@media(max-width: 1536px) {
+    .my-custom-scrollbar-pos-card {
+        height: 48vh !important;
+    }
+}
+
+.my-custom-scrollbar-pos-card::-webkit-scrollbar {
+    width: 3px !important;
+
+}
+
+
+.my-custom-scrollbar-pos-card::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.my-custom-scrollbar-pos-card::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.my-custom-scrollbar-pos-card::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+
+
+
+.order-list-wrapper-scroll-y {
+    display: block;
+
+}
+
+.my-custom-scrollbar-order-list {
+    position: relative;
+    height: 210px;
+    overflow: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 30vh !important
+}
+
+.my-custom-scrollbar-order-list::-webkit-scrollbar {
+    width: 3px !important;
+
+}
+
+
+.my-custom-scrollbar-order-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.my-custom-scrollbar-order-list::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.my-custom-scrollbar-order-list::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+
+
+
+.btn-counter {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+
+.customer-badge {
+    height: 30px;
+    width: 30px;
+}
+
+.login-cover {
+    min-height: 780px;
+    max-width: 1200px;
+}
+
+.inventory-text {
+    font-size: 13px;
+}
+
+
+
+.match-height > [class*=col] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column
+}
+
+.match-height > [class*=col] > .card {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.login-logo {
+    width: 40px !important;
+}
+.table td .badge {
+    min-width: 70px;
+}
+
+
+.board-title {
+    background-color: #f1f1f1;
+    padding: 5px 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.scrum-board {
+    flex: 1;
+    padding: 20px;
+}
+
+.scrum-board-processing {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.scrum-board-transit {
+    flex: 1;
+    padding: 20px;
+}
+
+.scrum-board-processed {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+
+}
+
+.scrum-board-store {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    
+}
+
+.scrum-board-column {
+    // background-color:blue;
+    min-height: 200px;
+    padding: 10px 0;
+    height: 100%;
+}
+
+.bg-light{
+    background-color: #e9ecef !important;
+}
+.table thead th.opacity-7 {
+    opacity: 1 !important;
+}
+.text-light{
+    color: #b1b1b1 !important;
+    font-weight: 600;
+}
+
+
+.today-task-pending {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #8392ab;
+    border-left: 5px solid #8392ab;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-confirm {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #83ce2d;
+    border-left: 5px solid #83ce2d;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-picked_up {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #9b313d ;
+    border-left: 5px solid #9b313d ;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-to_be_processed {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #FF597B ;
+    border-left: 5px solid #FF597B;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff; 
+}
+
+.today-task-in_transit {
+
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #11cdef;
+    border-left: 5px solid #11cdef;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff; 
+
+}
+
+
+.today-task-processing {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #e9ecef;
+    border-left: 5px solid #e9ecef;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+
+.today-task-sent_to_store {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #535560;
+    border-left: 5px solid #535560;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-ready {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #faae42;
+    border-left: 5px solid #faae42;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-out_for_delivery {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #8b38b2;
+    border-left: 5px solid #8b38b2;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-delivered {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #2dce89;
+    border-left: 5px solid #2dce89;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-cancel {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: .5px solid #FF1E1E;
+    border-left: 5px solid #FF1E1E;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.today-task-out_for_pickup {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: 0.5px solid #3003fc;
+    border-left: 5px solid #3003fc;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.scrum-task-pending {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #8392ab;
+    border-left: 5px solid #8392ab;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+.scrum-task-confirm {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #83ce2d;
+    border-left: 5px solid #83ce2d;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+.scrum-task-picked_up {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #9b313d ;
+    border-left: 5px solid #9b313d ;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+.scrum-task-to_be_processed {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #FF597B ;
+    border-left: 5px solid #FF597B;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff; 
+    cursor: all-scroll;
+}
+
+.scrum-task-in_transit {
+
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #11cdef;
+    border-left: 5px solid #11cdef;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff; 
+    cursor: all-scroll;
+
+}
+
+
+.scrum-task-processing {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #e9ecef;
+    border-left: 5px solid #e9ecef;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+
+.scrum-task-sent_to_store {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #535560;
+    border-left: 5px solid #535560;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+.scrum-task-ready {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #faae42;
+    border-left: 5px solid #faae42;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+.scrum-task-out_for_delivery {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #8b38b2;
+    border-left: 5px solid #8b38b2;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+.scrum-task-delivered {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #2dce89;
+    border-left: 5px solid #2dce89;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+.scrum-task-cancel {
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: .5px solid #FF1E1E;
+    border-left: 5px solid #FF1E1E;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: all-scroll;
+}
+
+
+.input-counter {
+    max-width: 80px !important; 
+}
+.navbar-vertical.navbar-expand-xs .navbar-collapse {
+    height: calc(100vh - 235px) !important;
+}
+
+
+
+.input_overlay_btn {
+    position: relative;
+}
+.input_overlay_btn>button {
+    position: absolute;
+    top: 0;
+    /* width: 200px; */
+    right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.alert-dismissible .btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
